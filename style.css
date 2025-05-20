@@ -1,0 +1,55 @@
+#background {
+	background-image: linear-gradient(to right, lightblue, blue, lightblue);
+
+}
+
+#webCam {
+	text-align: center;
+	margin: 20px auto; /* Center canvas */
+    border: 1px solid black; /* Optional border for visibility */
+    width: 200px; /* Set width */
+    height: 150px/* Set height */
+}
+#container {
+	max-width: 840px;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.about-grid {
+	diplay: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 40% 40% 20%;
+}
+
+a {
+	align-content: center;
+	padding: 10px;
+	margin: 20px auto;
+	background-color: darkblue;
+	color: white;
+	text-decoration: none;
+	border-radius: 15px;
+}
+
+a:hover {
+	background-color: white;
+	color: darkblue;
+	box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);;
+}
+
+canvas {
+	display: block;
+	align-content: center;
+	margin: 20px auto; /* Center canvas */
+    border: 1px solid black; /* Optional border for visibility */
+    width: 200px; /* Set width */
+    height: 150px; /* Set height */
+}
+
+* {
+	box-sizing: border-box;
+}

@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Simple Camera</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="https://unpkg.com/webcam-easy@1.1.1/dist/webcam-easy.min.js"></script>
+	</head>
+	<body id="background">
+		<div id="container">
+			<div></div>
+
+			<div>
+				<div class="center">
+					<label for="img">User Picture:</label>
+					<input 
+						type="file"
+						id="img"
+						capture="user"
+						accept="image/*"
+					>
+				</div>
+				<div class="center">
+					<video id="webCam" autoplay playsinline width="800" height="600"></video>
+					<canvas id="canvas"></canvas>
+				<!--</div>
+				<div> -->
+					<a onClick="takeAPicture()">SNAP</a>
+					<a id="download" download=picture>DOWNLOAD</a>
+				</div>
+			</div>
+
+			<div></div>
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>
